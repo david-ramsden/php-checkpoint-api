@@ -27,7 +27,7 @@
  */
 class CPAPI
 {
-	private $__ch;				// cURL handle.
+	private $__ch;			// cURL handle.
 	private $__sid = NULL;		// Check Point API session ID.
 	private $__cli = FALSE;		// If being called from CLI or not.
 
