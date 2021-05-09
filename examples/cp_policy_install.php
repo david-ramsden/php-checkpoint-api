@@ -19,11 +19,11 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-include('CPAPI.class.php');
+include('../CPAPI.class.php');
 
-$cp = new CPAPI(array('server' 		=> '10.10.10.134',
-		      		  'user'	 	=> 'svc_cpapi',
-		      		  'password' 	=> 'th3_pa55w0rd'));
+$cp = new CPAPI(array('server' 	 => '10.10.10.134',
+		      'user'	 => 'svc_cpapi',
+		      'password' => 'th3_pa55w0rd'));
 
 $packages = $cp->send_request('show-packages', array('limit' => 500, 'offset' => 0));
 
