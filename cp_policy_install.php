@@ -19,7 +19,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-include('/var/www/html/api/CPAPI.class.php');
+include('CPAPI.class.php');
 
 $cp = new CPAPI(array('server' 		=> '10.10.10.134',
 		      		  'user'	 	=> 'svc_cpapi',
