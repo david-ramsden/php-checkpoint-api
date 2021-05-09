@@ -3,7 +3,7 @@
 ## Introduction
 This PHP class allows interaction with the [Check Point Management API](https://sc1.checkpoint.com/documents/latest/APIs/#introduction~v1.3%20). It has been tested against Check Point Management API v1.3 (i.e. R80.20). The class does not implement specific Check Point Management API calls but allows for faster development of scripts by providing a basic framework. Scripts using this PHP class can either be CLI or web based.
 
-Included in this repository are two sciprts that use the PHP class.
+Included in this repository are two example sciprts that use the PHP class.
 
 ## Examples
 
